@@ -28,7 +28,7 @@
         margin: auto;
         min-height: 180px;
         padding: 0;
-        width: 600px;
+        width: 660px;
       }
 
       h1 {
@@ -111,6 +111,21 @@
 	  .small {
 		width: 30%;
 	  } 
+    #butto {
+    margin-left: 1rem;
+    border: none;
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    color:#FFFFFF;
+    font-weight: 300;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+    }
     </style>
     <script src="popup.js"></script>
   </head>
@@ -136,40 +151,44 @@
 	</br>
 	<div class="input-group mb-1">
 	<div class="input-group-prepend">
-		<span id="cp-link" class="input-group-text">LINK</span>
+		<span class="input-group-text">LINK</span>
 	</div>
-	<input type="text" class="form-control" id="link" aria-describedby="basic-addon3" value="">
+  <input type="text" class="form-control" id="link" aria-describedby="basic-addon3" value="">
+  <button id="butto" class="cp-link">Copy</button>
 	<div class="input-group mb-1">
 	</div>
 	</div>
 	<div class="input-group mb-1">
 	<div class="input-group-prepend">
-		<span id="cp-image" class="input-group-text">IMAGE</span>
+		<span class="input-group-text">IMAGE</span>
 	</div>
-	<input type="text" class="form-control" id="image" aria-describedby="basic-addon3" value="">
+  <input type="text" class="form-control" id="image" aria-describedby="basic-addon3" value="">
+  <button id="butto" class="cp-image">Copy</button>
 	<div class="input-group mb-1">
 	</div>
 	</div>
 	</br>
-	<div class="input-group mb-1">
+	<div class="input-group mb-2">
 	<div class="input-group-prepend">
-		<span id="cp-bucket" class="input-group-text">BUCKET</span>
+		<span class="input-group-text">BUCKET</span>
 	</div>
-	<input type="text" class="small form-control" id="bucket" aria-describedby="basic-addon3" value="">
+  <input type="text" class="small form-control" id="bucket" aria-describedby="basic-addon3" value="">
+  <button id="butto" class="cp-bucket">Copy</button>
 	</div>
-	<div class="input-group mb-1">
+	<div class="input-group mb-2">
     <div class="input-group-prepend">
-      <span id="cp-html" class="input-group-text">HTML</span>
+      <span class="input-group-text">HTML</span>
     </div>
     <input type="text" class="small form-control" id="html" aria-describedby="basic-addon3" value="">
+    <button id="butto" class="cp-html">Copy</button>
   </div>
-  <div class="input-group mb-1">
+  <div class="input-group mb-2">
     <div class="input-group-prepend">
-      <span id="cp-img" class="input-group-text">IMG</span>
+      <span class="input-group-text">IMG</span>
     </div>
     <input type="text" class="small form-control" id="img" aria-describedby="basic-addon3" value="">
+    <button id="butto" class="cp-img">Copy</button>
   </div>
-
   <script src="popup.js"></script>
   </body>
   
