@@ -64,9 +64,9 @@ copyText.select();
 document.execCommand("copy");
 }
 
-document.getElementById("cp-link").addEventListener("click", myLink);
-document.getElementById("cp-image").addEventListener("click", myImage);
-document.getElementById("cp-bucket").addEventListener("click", myBucket);
-document.getElementById("cp-html").addEventListener("click", myHtml);
-document.getElementById("cp-img").addEventListener("click", myImg);
+document.querySelector(".cp-link").addEventListener("click", myLink);
+document.querySelector(".cp-image").addEventListener("click", myImage);
+document.querySelector(".cp-bucket").addEventListener("click", myBucket);
+document.querySelector(".cp-html").addEventListener("click", myHtml);
+document.querySelector(".cp-img").addEventListener("click", myImg);
 }
