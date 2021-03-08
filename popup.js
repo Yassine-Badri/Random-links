@@ -21,8 +21,8 @@ amazon.addEventListener("click", function(){
 var bucket = makeid(10);
 var html = makeid(10);
 var img = makeid(10);
-document.getElementById("link").value = "https://s3.us-east-2.amazonaws.com/"+bucket+"/"+html+".html";
-document.getElementById("image").value = "https://s3.us-east-2.amazonaws.com/"+bucket+"/"+img+".png";
+document.getElementById("link").value = "https://s3.amazonaws.com/"+bucket+"/"+html+".html";
+document.getElementById("image").value = "https://s3.amazonaws.com/"+bucket+"/"+img+".png";
 document.getElementById("bucket").value = bucket;
 document.getElementById("html").value = html;
 document.getElementById("img").value = img;
