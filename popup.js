@@ -27,7 +27,6 @@ window.onload=function(){
   /// AMAZON
   amazon.addEventListener("click", function(){ 
   cnt.style.display="none";
-  bfirst.style.display="inline-block";
   var buckets = makeid(10);
   var htmls = makeid(10);
   var imgs = makeid(10);
