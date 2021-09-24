@@ -1,11 +1,22 @@
-<html><head>
+<!DOCTYPE html>
+<html>
+  <head>
     <link rel="icon" href="images/random.png">
     <title>Random Links</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
     <style>
       /* Modal Structure */
 
@@ -127,7 +138,7 @@
     <script src="popup.js"></script>
   </head>
 
-  <body>
+  <body >
      <!-- Option 1: Bootstrap Bundle with Popper -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
@@ -140,24 +151,24 @@
     <div class="modal-icons">
       <div class="flex-container">
 		    <div class="flex">
-           <button type="button" id="dream"> <img src="images/dreamhost.png"> </button> 
+           <button type="button" id='dream'> <img src="images/dreamhost.png"> </button> 
         </div>
         <div class="flex">
-          <button type="button" id="amazon"> <img src="images/amazon.png"> </button> 
+          <button type="button" id='amazon'> <img src="images/amazon.png"> </button> 
         </div>
         <div class="flex">
-          <button type="button" id="backblaze"> <img src="images/backblaze.png"> </button> 
+          <button type="button" id='backblaze'> <img src="images/backblaze.png"> </button> 
         </div>
         <div class="flex">
-          <button type="button" id="azure"> <img src="images/Azure.png"> </button> 
+          <button type="button" id='azure'> <img src="images/Azure.png"> </button> 
         </div>
         <div class="flex">
-          <button type="button" id="google"> <img src="images/Google-API.png"> </button> 
+          <button type="button" id='google'> <img src="images/Google-API.png"> </button> 
         </div>
       </div>
     </div>
-	<br>
-	<br>
+	</br>
+	</br>
   <div class="card card-body">
 	<div class="input-group mb-1 ">
 	<div class="input-group-prepend">
@@ -168,17 +179,53 @@
 	<div class="input-group mb-1">
 	</div>
 	</div>
-	
-	
-	
-  
-	
-
-	
-  
+	<div class="input-group mb-1">
+	<div class="input-group-prepend">
+		<span class="input-group-text">IMAGE</span>
+	</div>
+  <input type="text" class="form-control" id="image" aria-describedby="basic-addon3" value="">
+  <button id="butto" class="cp-image">Copy</button>
+	<div class="input-group mb-1">
+	</div>
+	</div>
+	</br>
+	<div class="input-group mb-2">
+	<div class="input-group-prepend">
+		<span class="input-group-text">BUCKET</span>
+	</div>
+  <input type="text" class="small form-control" id="bucket" aria-describedby="basic-addon3" value="">
+  <button id="butto" class="cp-bucket">Copy</button>
   </div>
-    <div id="bfirst" style="width: 100%;">
-    
+  
+	<div id="cnt" class="input-group mb-2">
+    <div class="input-group-prepend">
+      <span class="input-group-text">CONTAINER</span>
+    </div>
+    <input type="text" class="small form-control" id="container" aria-describedby="basic-addon3" value="">
+    <button id="butto" class="cp-container">Copy</button>
+    </div>
+
+	<div class="input-group mb-2">
+    <div class="input-group-prepend">
+      <span class="input-group-text">HTML</span>
+    </div>
+    <input type="text" class="small form-control" id="html" aria-describedby="basic-addon3" value="">
+    <button id="butto" class="cp-html">Copy</button>
+  </div>
+  <div class="input-group mb-2">
+    <div class="input-group-prepend">
+      <span class="input-group-text">IMG</span>
+    </div>
+    <input type="text" class="small form-control" id="img" aria-describedby="basic-addon3" value="">
+    <button id="butto" class="cp-img">Copy</button>
+  </div>
+  </div>
+    <div id="bfirst" style='width: 100%;'>
+    <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Bucket First
+      </a>
+    </p>
     <div class="collapse" id="collapseExample">
       <div class="card card-body">
         <div class="input-group mb-1">
@@ -203,7 +250,6 @@
     </div>
   </div>
   <script src="popup.js"></script>
+  </body>
   
-  
-
-</body></html>
+</html>
